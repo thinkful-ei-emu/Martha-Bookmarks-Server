@@ -5,7 +5,6 @@ const bookmarks = [{
   desc: 'This is a bookmark.'
 }];
 
-
 module.exports = {
   bookmarks,
 };
