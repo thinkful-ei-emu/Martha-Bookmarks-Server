@@ -37,7 +37,7 @@ app.get('/xss', (req, res) => {
 });
 
 //ROUTES GO HERE
-app.use(bookmarkRouter);
+app.use('/api/bookmarks', bookmarkRouter);
 
 app.use(function errorHandler(error, req, res, next) { //eslint-disable-line no-unused-vars
   let response;
